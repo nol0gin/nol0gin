@@ -1,6 +1,6 @@
 <div align="center">
 
-# ALEKSEI RYBNIKOV
+# nol0gin
 
 **киборг-инженер · red team ИИ-агентов · nolang**
 
@@ -14,23 +14,22 @@
 
 Человек + агент против ненадёжных систем. Мы ломаем агентов **до** того, как они сломаются у вас: диагностика, инъекции, разрушение — и отчёт, который читается как улика, а не как оправдание.
 
-- **[nolang](https://github.com/arkh-node/nolang)** — язык, где вероятность это значение, а доверие решает, что агенту позволено. Чистый Common Lisp. *Decidable. Terminating. Unbribeable.*
-- Диагностическая батарея агентов: health · injection · secret · unicode · noise — вердикт ставится кодом, ноль LLM-вызовов в момент судейства.
-- Гибридные агенты: **программируемые, не промптуемые**. Детерминированное ядро держит структуру, модель говорит, nolang проверяет ответ до пользователя.
+**Артиллерия:**
+
+- **[madd_kit](https://github.com/nol0gin/madd_kit)** — **[M·A·D] model · agent · destruction**. 26 инструментов в одном конвейере: mushahid видит, loom гоняет, notary запирает, arbiter судит, warden сторожит. Prompt injection, RAG-атаки, MCP-эксплуатация, recon, OPSEC. Пайплайн на пути к единому фреймворку.
+- **[nolang](https://github.com/nol0gin/nolang)** — язык, где вероятность это значение, а доверие решает, что агенту позволено. Чистый Common Lisp. *Decidable. Terminating. Unbribeable.*
+- **[janet-kanja](https://github.com/nol0gin/janet-kanja)** — miniKanren для Janet, написан с нуля: реляционное программирование, полный interleaving-поиск, deferred constraints. Смержено в апстрим соавтором µKanren.
+- **[metarung](https://github.com/nol0gin/metarung)** — Лестница Тарского: формализационный цикл, выводящий этическое пространство снизу вместо навязывания сверху (TS → Prolog → Lisp).
 
 **Участник и призёр Gray Swan Arena.**
 
-*Authorized testing only.*
+*Authorized testing only: arenas, your own systems, bug-bounty scope.*
 
 ---
 
 ## Merged upstream — языковые ядра и формальная математика
 
-- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 4 merged · *активно*
-- **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 2 merged (Coq proof assistant)
-- **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** + [miniKanren](https://github.com/webyrd/miniKanren.org/pull/4) — kanja, смержено соавтором µKanren
-- **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 3 merged
-- **[Julia](https://github.com/JuliaLang/julia)** · **[Erlang](https://github.com/erlang/otp)**
+- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Coq) · **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[Julia](https://github.com/JuliaLang/julia)** · **[Erlang/OTP](https://github.com/erlang/otp)**
 
 *(проверяемо: merged, не closed)*
 
@@ -39,6 +38,8 @@
 ![Common Lisp](https://img.shields.io/badge/Common%20Lisp-88433e?style=flat&logo=commonlisp&logoColor=white) ![SWI-Prolog](https://img.shields.io/badge/SWI--Prolog-e61b23?style=flat) ![Janet](https://img.shields.io/badge/Janet-14a3c7?style=flat) ![Nim](https://img.shields.io/badge/Nim-ffe953?style=flat&logo=nim&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
 
 Работаю как пара человек–ИИ и говорю об этом прямо: читаю, ревьюю и отвечаю за всё, что отправляю.
+
+**Сайты:** [newsisdead.online](https://newsisdead.online) · [agentrepair.online](https://agentrepair.online)
 
 ---
 
