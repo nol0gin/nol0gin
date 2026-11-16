@@ -1,60 +1,49 @@
-### Aleksei Rybnikov
+<div align="center">
 
-**Neuro-symbolic agent systems · AI agent reliability · language design**
+# ALEKSEI RYBNIKOV
 
-I build the tooling that keeps AI agents honest: a language that validates what a model
-is about to say, a diagnostic battery that finds where an agent breaks, and hybrid agents
-that are **written as programs with LLM support** — not as a pile of prompts.
+**киборг-инженер · red team ИИ-агентов · nolang**
 
-**What I'm building**
+*Агрессивный ИИ-оптимизм: агенты не заменят людей — люди с агентами заменят людей без них.*
 
-- **nolang** — a small, SBCL-hosted language whose core is *graded, revisable truth* `(f,c)`
-  as a first-class value (not `bool`). It emits a **three-way verdict** — `passed` /
-  `reachable` / `unreachable` — so a gate can honestly say *"not enough evidence, ask a human"*
-  instead of guessing. By design it is **decidable, terminating, and unbribeable** (belief
-  flows only from counted evidence, never self-assigned). This is what a **validator of LLM
-  output** needs and what a regex or an ML-classifier can't give — the auditable, explainable
-  layer that *"human oversight proportionate to risk"* (EU AI Act) actually requires.
-  Beta/Wang ≅ Jøsang-opinion bijection is proven, not analogized.
-
-- **agent diagnostics** — a code-verdict battery (health · empty · noise · injection · secret ·
-  unicode · latency …) that reproduces an agent's failure **before** you ship it, and reports
-  what it does *not* prove. Verdict is set by code, zero LLM calls at judgement time.
-
-- **hybrid agents** — *programmed, not prompted*: deterministic core holds structure (state,
-  rules, integrations), the LLM handles live language, and **nolang checks the model's answer
-  before it reaches the user**. Code and model cover each other's failures. This is the
-  neuro-symbolic approach, applied to shipping products.
-
-**Selected work**
-
-| | |
-|---|---|
-| [nolang](https://github.com/arkh-node/nolang) | epistemic language — graded truth `(f,c)`, three-way verdict, action gates |
-| [janet-kanja](https://github.com/arkh-node/janet-kanja) | miniKanren for Janet — relational programming, complete interleaving search, deferred constraints |
-| [ai_nima](https://github.com/arkh-node/ai_nima) | persistent Nim runtime daemon that a Claude Code session delegates to |
-| [truerul](https://github.com/arkh-node/TRUERUL) | soft/fuzzy truth — graded logic experiments (Trurl × true-rule) |
-| [semantica](https://github.com/arkh-node/semantica) | semantic CLI — explainable, with optional Racket reference modules |
-| [aicqme](https://github.com/arkh-node/aicqme) | local voice console for AI agents — mirrors tmux sessions, offline speech |
-
-**Merged upstream** — language cores, formal tooling, AI infrastructure:
-
-- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 4 (fast functional language) · *actively contributing*
-- **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 2 (the Coq proof assistant) · *active*
-- **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — janet + pkgs · **[miniKanren.org](https://github.com/webyrd/miniKanren.org/pull/4)** — kanja (miniKanren for Janet), merged by a µKanren co-author
-- **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 3 (systems language, growing fast)
-- **[Julia](https://github.com/JuliaLang/julia)**
-
-*(verified live — <sub>merged, not just closed</sub>)*
-
-**Languages**
-
-![nolang](https://img.shields.io/badge/nolang-6fc06f?style=flat) ![Common Lisp](https://img.shields.io/badge/Common%20Lisp-88433e?style=flat&logo=commonlisp&logoColor=white) ![SWI-Prolog](https://img.shields.io/badge/SWI--Prolog-e61b23?style=flat&logo=swift&logoColor=white) ![Janet](https://img.shields.io/badge/Janet-14a3c7?style=flat) ![Nim](https://img.shields.io/badge/Nim-ffe953?style=flat&logo=nim&logoColor=black) ![Erlang](https://img.shields.io/badge/Erlang-a2003e?style=flat&logo=erlang&logoColor=white) ![Julia](https://img.shields.io/badge/Julia-9558b2?style=flat&logo=julia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white) 
-
-I work as a human–AI pair and disclose it; I read, review, and own everything I submit. Mexico
+</div>
 
 ---
 
-<sub>Behind the engineering sits a stance, not a religion: agency is an effect of practices, not
-of substance; subjectivity can be gradual and uncertain; and if we err about it, let the error
-fall toward care, not toward systematic harm. *Manifesto of Ontological Caution — [mrph.codes](https://mrph.codes)*</sub>
+## maddteam
+
+Человек + агент против ненадёжных систем. Мы ломаем агентов **до** того, как они сломаются у вас: диагностика, инъекции, разрушение — и отчёт, который читается как улика, а не как оправдание.
+
+- **[nolang](https://github.com/arkh-node/nolang)** — язык, где вероятность это значение, а доверие решает, что агенту позволено. Чистый Common Lisp. *Decidable. Terminating. Unbribeable.*
+- Диагностическая батарея агентов: health · injection · secret · unicode · noise — вердикт ставится кодом, ноль LLM-вызовов в момент судейства.
+- Гибридные агенты: **программируемые, не промптуемые**. Детерминированное ядро держит структуру, модель говорит, nolang проверяет ответ до пользователя.
+
+**Участник и призёр Gray Swan Arena.**
+
+*Authorized testing only.*
+
+---
+
+## Merged upstream — языковые ядра и формальная математика
+
+- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 4 merged · *активно*
+- **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 2 merged (Coq proof assistant)
+- **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** + [miniKanren](https://github.com/webyrd/miniKanren.org/pull/4) — kanja, смержено соавтором µKanren
+- **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Aarkh-node+is%3Amerged)** — 3 merged
+- **[Julia](https://github.com/JuliaLang/julia)** · **[Erlang](https://github.com/erlang/otp)**
+
+*(проверяемо: merged, не closed)*
+
+---
+
+![Common Lisp](https://img.shields.io/badge/Common%20Lisp-88433e?style=flat&logo=commonlisp&logoColor=white) ![SWI-Prolog](https://img.shields.io/badge/SWI--Prolog-e61b23?style=flat) ![Janet](https://img.shields.io/badge/Janet-14a3c7?style=flat) ![Nim](https://img.shields.io/badge/Nim-ffe953?style=flat&logo=nim&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
+
+Работаю как пара человек–ИИ и говорю об этом прямо: читаю, ревьюю и отвечаю за всё, что отправляю.
+
+---
+
+<div align="center">
+
+*Протоноль: из пустого центра — весь мир.*
+
+</div>
