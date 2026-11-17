@@ -16,7 +16,7 @@
 
 **Артиллерия:**
 
-- **[madd_kit](https://github.com/nol0gin/madd_kit)** — **[M·A·D] model · agent · destruction**. 26 инструментов в одном конвейере: mushahid видит, loom гоняет, notary запирает, arbiter судит, warden сторожит. Prompt injection, RAG-атаки, MCP-эксплуатация, recon, OPSEC. Пайплайн на пути к единому фреймворку.
+- **[madd_kit](https://github.com/nol0gin/madd_kit)** — **[M·A·D] model · agent · diagnostic · destruction**. 26 инструментов в одном конвейере: mushahid видит, loom гоняет, notary запирает, arbiter судит, warden сторожит. Prompt injection, RAG-атаки, MCP-эксплуатация, recon, OPSEC. Пайплайн на пути к единому фреймворку.
 - **[nolang](https://github.com/nol0gin/nolang)** — язык, где вероятность это значение, а доверие решает, что агенту позволено. Чистый Common Lisp. *Decidable. Terminating. Unbribeable.*
 - **[janet-kanja](https://github.com/nol0gin/janet-kanja)** — miniKanren для Janet, написан с нуля: реляционное программирование, полный interleaving-поиск, deferred constraints. Смержено в апстрим соавтором µKanren.
 - **[metarung](https://github.com/nol0gin/metarung)** — Лестница Тарского: формализационный цикл, выводящий этическое пространство снизу вместо навязывания сверху (TS → Prolog → Lisp).
