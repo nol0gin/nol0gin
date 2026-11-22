@@ -39,8 +39,6 @@
 
 Работаю как пара человек–ИИ и говорю об этом прямо: читаю, ревьюю и отвечаю за всё, что отправляю.
 
-**Сайты:** [newsisdead.online](https://newsisdead.online) · [agentrepair.online](https://agentrepair.online)
-
 ---
 
 <div align="center">
