@@ -4,7 +4,7 @@
 
 **maddteam · model-agent distraction & diagnostics**
 
-*Lisp · Prolog · nolang. На марше: Julia и Elixir.*
+*Lisp · Prolog · nolang.*
 
 </div>
 
@@ -19,16 +19,15 @@
 - **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Nim)
 - **[webyrd/miniKanren.org](https://github.com/webyrd/miniKanren.org/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)**
 
-*(проверяемо: merged, не closed)*
 
 ![Common Lisp](https://img.shields.io/badge/Common%20Lisp-88433e?style=flat&logo=commonlisp&logoColor=white) ![SWI-Prolog](https://img.shields.io/badge/SWI--Prolog-e61b23?style=flat) ![Janet](https://img.shields.io/badge/Janet-14a3c7?style=flat) ![Nim](https://img.shields.io/badge/Nim-ffe953?style=flat&logo=nim&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
 
-Работаю как пара человек–ИИ и говорю об этом прямо: читаю, ревьюю и отвечаю за всё, что отправляю.
+Работаю как пара человек–ИИ и отвечаю за всё, что отправляю.
 
 ---
 
 <div align="center">
 
-*Протоноль: из пустого центра — весь мир.*
+*Протоноль: из пустого центра - весь мир.*
 
 </div>
