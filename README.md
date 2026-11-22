@@ -2,7 +2,9 @@
 
 # nol0gin
 
-**киборг-инженер · red team ИИ-агентов · nolang**
+**maddteam · model-agent distraction & diagnostics**
+
+*Lisp · Prolog · nolang.*
 
 *Агрессивный ИИ-оптимизм: агенты не заменят людей — люди с агентами заменят людей без них.*
 
@@ -12,28 +14,18 @@
 
 ## maddteam
 
-Человек + агент против ненадёжных систем. Мы ломаем агентов **до** того, как они сломаются у вас: диагностика, инъекции, разрушение — и отчёт, который читается как улика, а не как оправдание.
+Ломаем агентов до того, как они сломаются в проде. Authorized testing only.
 
-**Артиллерия:**
+## Merged upstream
 
-- **[madd_kit](https://github.com/nol0gin/madd_kit)** — **model · agent · diagnostic · destruction**. 26 инструментов в одном конвейере: mushahid видит, loom гоняет, notary запирает, arbiter судит, warden сторожит. Prompt injection, RAG-атаки, MCP-эксплуатация, recon, OPSEC. Пайплайн на пути к единому фреймворку.
-- **[nolang](https://github.com/nol0gin/nolang)** — язык, где вероятность это значение, а доверие решает, что агенту позволено. Чистый Common Lisp. *Decidable. Terminating. Unbribeable.*
-- **[janet-kanja](https://github.com/nol0gin/janet-kanja)** — miniKanren для Janet, написан с нуля: реляционное программирование, полный interleaving-поиск, deferred constraints. Смержено в апстрим соавтором µKanren.
-- **[metarung](https://github.com/nol0gin/metarung)** — Лестница Тарского: формализационный цикл, выводящий этическое пространство снизу вместо навязывания сверху (TS → Prolog → Lisp).
-
-**Участник и призёр Gray Swan Arena.**
-
-*Authorized testing only: arenas, your own systems, bug-bounty scope.*
-
----
-
-## Merged upstream — языковые ядра и формальная математика
-
-- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Coq) · **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[Julia](https://github.com/JuliaLang/julia)** · **[Erlang/OTP](https://github.com/erlang/otp)**
+- **[ponylang/ponyc](https://github.com/ponylang/ponyc/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[ponylang/changelog-tool](https://github.com/ponylang/changelog-tool/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Pony)
+- **[roc-lang/roc](https://github.com/roc-lang/roc/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Roc)
+- **[rocq-prover/rocq](https://github.com/rocq-prover/rocq/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Rocq / Coq)
+- **[janet-lang/janet](https://github.com/janet-lang/janet/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[janet-lang/pkgs](https://github.com/janet-lang/pkgs/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[pepe/janet-playground](https://github.com/pepe/janet-playground/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Janet)
+- **[nim-lang/Nim](https://github.com/nim-lang/Nim/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** (Nim)
+- **[webyrd/miniKanren.org](https://github.com/webyrd/miniKanren.org/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[yegor256/factbase](https://github.com/yegor256/factbase/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[monocle2ai/monocle](https://github.com/monocle2ai/monocle/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)** · **[cimcai/cooperationengine](https://github.com/cimcai/cooperationengine/pulls?q=is%3Apr+author%3Anol0gin+is%3Amerged)**
 
 *(проверяемо: merged, не closed)*
-
----
 
 ![Common Lisp](https://img.shields.io/badge/Common%20Lisp-88433e?style=flat&logo=commonlisp&logoColor=white) ![SWI-Prolog](https://img.shields.io/badge/SWI--Prolog-e61b23?style=flat) ![Janet](https://img.shields.io/badge/Janet-14a3c7?style=flat) ![Nim](https://img.shields.io/badge/Nim-ffe953?style=flat&logo=nim&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white)
 
