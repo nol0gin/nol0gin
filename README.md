@@ -4,17 +4,13 @@
 
 **maddteam · model-agent distraction & diagnostics**
 
-*Lisp · Prolog · nolang.*
+*Lisp · Prolog · nolang. На марше: Julia и Elixir.*
 
 *Агрессивный ИИ-оптимизм: агенты не заменят людей — люди с агентами заменят людей без них.*
 
 </div>
 
 ---
-
-## maddteam
-
-Ломаем агентов до того, как они сломаются в проде. Authorized testing only.
 
 ## Merged upstream — языковые ядра и формальная математика
 
